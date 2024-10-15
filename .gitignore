@@ -1,5 +1,6 @@
 # Ignorar archivo de variables de entorno
 .env
 
+
 # Otras configuraciones de gitignore
 *.log
