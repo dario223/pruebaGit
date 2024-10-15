@@ -1,0 +1,23 @@
+name: Gitleaks Scan
+
+on:
+  push:
+    branches:
+      - main  # O la rama que desees monitorizar
+
+jobs:
+  gitleaks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v2
+
+      - name: Install Gitleaks
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gitleaks
+
+      - name: Run Gitleaks
+        run: |
+          gitleaks detect --verbose --exit-code 1 --source . 
