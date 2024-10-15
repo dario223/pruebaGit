@@ -1,3 +1,4 @@
 Primera línea de la práctica de Git realizada por Darío Vega
 Segunda línea de la práctica de Git realizada por Darío Vega
 Tercera línea añadida con firma GPG
+AWS_KEY = \"CONTRASEÑAINVENTADA1234\""
