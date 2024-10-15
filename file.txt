@@ -1,1 +1,2 @@
 Primera línea de la práctica de Git realizada por Darío Vega
+Segunda línea de la práctica de Git realizada por Darío Vega
