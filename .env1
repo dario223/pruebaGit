@@ -1,2 +1,4 @@
-API_KEY=1234567890abcdef
-SECRET_KEY=abcdef1234567890
+# Ejemplos de formatos comunes de contraseñas
+API_KEY="ABCD1234EFGH5678"
+SECRET_KEY="supersecret"
+PASSWORD="Pa$$w0rd123"
